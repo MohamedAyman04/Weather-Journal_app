@@ -1,0 +1,142 @@
+/* added style to the whole page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: #fffff8;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+  display: grid;
+  grid-auto-rows: minmax(150px, auto);
+  /* grid-template-columns:  */
+  height: 100vh;
+  background: url("https://www-cdn.eumetsat.int/files/styles/16_9_large/s3/2020-06/ASpot_Weather.jpg?h=d1cb525d&itok=lvYWh_W8")
+    no-repeat; /* background image added */
+  background-size: cover; /* added it's size */
+  background-position: center; /* added it's position */
+  background-attachment: fixed; /* added it's attachment */
+  color: #f0d43a;
+  justify-content: center;
+  grid-gap: 1em;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+/* added holder syle */
+.holder {
+  color: #f0d43a;
+  text-align: center;
+}
+
+/* added entry syle */
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+  margin-top: 3em;
+}
+
+/* added entryHolder syle */
+#entryHolder {
+  font-size: 2em;
+  color: #f0d43a;
+  text-align: center;
+}
+
+/* added zip and feelings syle */
+#zip,
+#feelings {
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* added zip syle */
+#zip {
+  margin-left: 18em;
+}
+
+/* added feelings syle */
+#feelings {
+  margin-left: 2em;
+}
+
+/* added generate syle */
+#generate {
+  display: block;
+  margin-left: 13em;
+}
+
+/* added headline syle */
+.headline {
+  font-size: 7em;
+}
+/* added title syle */
+.title {
+  font-size: 2em;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 27px;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 320px;
+  background: #22b2da;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+
+button {
+  width: 400px;
+  height: 100px;
+  background: #3b4a6b;
+  color: #f0d43a;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  box-shadow: 2px 4px 5px #444;
+}
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  background: #22b2da;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
