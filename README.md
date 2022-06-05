@@ -1,5 +1,8 @@
 # Weather-Journal App Project
 
+## start and end dates
+Started on the 22nd of May, And ended on the 23rd of May. It was a udacity project.
+
 ## Overview
 This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 
